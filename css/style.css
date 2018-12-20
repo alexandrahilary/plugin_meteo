@@ -1,0 +1,104 @@
+.pluginMeteo .globale{
+  position: relative;
+
+}
+.pluginMeteo{
+  display: flex;
+  justify-content: center;
+}
+.pluginMeteo .fond{
+  width: 270px;
+  height: 170px;
+  background-color: #cdece2;
+  border-radius: 10px;
+  position: relative;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pluginMeteo img{
+  width: 135px;
+  position: absolute;
+  top : -70px;
+  right : 70px;
+}
+.pluginMeteo .ville{
+  font-family: monospace;
+  font-size: 1.5em;
+  color: cadetblue;
+  position: relative;
+  padding-top: 3px;
+}
+.pluginMeteo .horloge , .pluginMeteo .date{
+  position: relative;
+}
+.pluginMeteo .horloge{
+  display: block;
+  font-family: monospace;
+  font-size: xx-large;
+}
+.pluginMeteo .date{
+  font-family: monospace;
+  font-size: large;
+}
+.pluginMeteo .temperature-min{
+  top: 10px;
+  position: absolute;
+  left: 10px;
+  font-size: x-large;
+}
+.pluginMeteo .temperature-max{
+  top: 10px;
+  position: absolute;
+  right: 10px;
+  font-size: x-large;
+}
+.pluginMeteo .temperature-actuelle{
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+  margin-top: 0;
+}
+.pluginMeteo h1{
+  text-align: center;
+  margin-bottom: 0px;
+  font-size:180%;
+}
+.pluginMeteo .condition{
+  text-align: center;
+  margin-top: 11px;
+  margin-bottom: 0px;
+}
+.pluginMeteo .align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pluginMeteo .max{
+  font-size: 1em;
+  position: absolute;
+  right: 13px;
+  top: 55px;
+}
+.pluginMeteo .min{
+  font-size: 1em;
+  position: absolute;
+  
+  left: 13px;
+  top: 55px;
+}
+.pluginMeteo .catch{
+  display: none;
+  font-family: monospace;
+  color : cadetblue;
+  font-size: 2em;
+}
+.pluginMeteo .choisi-ta-ville{
+  background-color: #cdece25c;
+  box-sizing: unset;
+  color: #5f9e9f;
+  border-color: rgba(169, 169, 169, 0);
+  margin-top: 15px;
+}
